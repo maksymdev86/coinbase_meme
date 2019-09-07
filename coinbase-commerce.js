@@ -21,9 +21,14 @@ let someCharge = new Charge({
 });
 
 
-const run = () => {
+async function run() {
+  
+  console.log("Starting to charge");
+  const res = await someCharge.save();
+  console.log("Seems we've created it?");
+  console.log(JSON.parse(JSON.stringify(res)));
 
-
+  console.log(`Response ID: ${res.id}`);
 
 }
 
