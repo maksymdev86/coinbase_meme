@@ -1,0 +1,18 @@
+{
+  "name": "@luiserebii/coinbase-commerce-meme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "meme.js",
+  "dependencies": {
+    "coinbase-commerce-node": "^1.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config meme.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
